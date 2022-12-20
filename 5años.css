@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #2a2734;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+.cincoaños {
+  height: 120px;
+  display: flex; 
+  margin-top: 10%;
+  justify-content: center;
+  width: 100%;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+.letra {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    cursor: pointer;
+    margin: 0 4PX;
+    border-radius: 20px;
+    color: yellow;
+    text-shadow: 0 0 15px yellow, 0 0 5px yellow;
+    animation: animate 2s linear infinite;
+
+}
+
+@keyframes animate {
+    0% {
+        filter: hue-rotate(20deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.mensaje {
+    color: rgba(0, 234, 255, 0.748);
+    display: flex;
+    margin: 8%;
+    margin-left: 13%;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    color: yellow;
+    filter: hue-rotate(20deg);
+    align-items: center;
+    /* transform: translate(0, -50%); */
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 120px;
+}
+ .años {
+    padding: 30px; 
+    margin: 2%;
+    background-color: #a616a6; 
+    width: 80px;
+    height: 50px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    transition: .2s all;
+    cursor: pointer;
+    color: yellow;
+    /* filter: hue-rotate(20deg); */
+   
+ }
+
+ #uno {
+    margin-right: 1%;
+ }
+
+ #uno:hover {
+    background-image: url("https://i.postimg.cc/TPtzFsT5/IMG-20221215-160954.jpg");
+ }
+
+ #añouno:hover {
+    background-image: url("https://i.postimg.cc/TPtzFsT5/IMG-20221215-160954.jpg");
+    width: 100%;
+    background-size: 100%;
+    font-size: 150%;
+ }
+
+ #dos {
+    margin-right: 1%;
+ }
+
+ #dos:hover {
+    background-image: url("https://i.postimg.cc/mgwwWcYd/IMG-20191214-190821.jpg");
+ }
+
+ #añodos:hover {
+    background-image: url("https://i.postimg.cc/mgwwWcYd/IMG-20191214-190821.jpg");
+    width: 100%;
+    background-size: 100%;
+    font-size: 150%;
+ }
+
+ #tres {
+    margin-right: 1%;
+ }
+
+ #tres:hover {
+    background-image: url("https://i.postimg.cc/SsTS6X4h/IMG-20201128-230155.jpg");
+ }
+
+ #añotres:hover {
+    background-image: url("https://i.postimg.cc/SsTS6X4h/IMG-20201128-230155.jpg");
+    width: 100%;
+    background-size: 100%;
+    font-size: 150%;
+ }
+
+ #cuatro {
+   margin-right: 1%;
+}
+
+#cuatro:hover {
+   background-image: url("https://i.postimg.cc/QMmQgNBJ/Screenshot-2022-12-20-01-55-44-492-com-instagram-android.jpg");
+}
+
+#añocuatro:hover {
+   background-image: url("https://i.postimg.cc/QMmQgNBJ/Screenshot-2022-12-20-01-55-44-492-com-instagram-android.jpg");
+   width: 100%;
+   background-size: 100%;
+   font-size: 150%;
+}
+
+#cinco {
+   margin-right: 1%;
+}
+
+#cinco:hover {
+   background-image: url("https://i.postimg.cc/wjpvDKDF/IMG-20220401-094848.jpg");
+}
+
+#añocinco:hover {
+   background-image: url("https://i.postimg.cc/wjpvDKDF/IMG-20220401-094848.jpg");
+   width: 100%;
+   background-size: 100%;
+   font-size: 150%;
+}
+
+
+ a {
+    padding: 20px;
+    animation: none;
+    text-decoration: none;
+ }
+
+ .container:hover .años{
+    filter: blur(3px);
+    opacity: .5;
+    transform: scale(.98);
+    box-shadow: none;
+ }
+
+ .container:hover .años:hover{ 
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+    height: 100px;
+    box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+    background-color: #a82c2c;
+    color: white;
+   
+ } 
+
+ .circle {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 1px solid #a616a6;
+    animation: wave 0.8s forwards;
+    opacity: 1;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #686ffd;
+
+ }
+
+ @keyframes wave {
+    0% {
+        width: 5px;
+        height: 5px;
+        opacity: 1;
+    }
+    90% {
+        width: 50px;
+        height: 50px;
+        opacity: 0.5;
+    }
+    100% {
+        width: 50px;
+        height: 50px;
+        opacity: 0;
+    }
+ }
