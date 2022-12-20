@@ -1,0 +1,272 @@
+body {
+    background-color: rgb(181, 193, 14);
+    margin: 0;
+    padding: 0;
+    color: azure;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(-45deg, #e8ec03, #e8ec03, #180241, #180241, #f7da01, #f7da01);
+    background-size: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    /* letter-spacing: -px; */
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated_text 6s ease-in-out infinite;
+    -moz-animation: animated_text 6s ease-in-out infinite;
+    -webkit-animation: animated_text 6s ease-in-out infinite;
+}
+
+@keyframes animated_text {
+    0% {
+    background-position: 0px 50%;
+}
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0px 50%;
+    }
+}
+
+.mensaje {
+    padding-top: 20%;
+    font-style: italic;
+    color: #04dff8;
+    left: 10%;
+    font-size: 35px;
+}
+
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://i.postimg.cc/gJX8RV33/Whats-App-Image-2022-12-20-at-9-58-04-AM-3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+
+.container2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://i.postimg.cc/23pw3HJq/FB-IMG-1671519213801.jpg");
+    background-size: cover;
+    background-position: initial;
+    background-attachment: fixed;
+    display: table;
+}
+
+.container3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://i.postimg.cc/gJgcYQxD/Whats-App-Image-2022-12-20-at-9-58-04-AM-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+
+h1 {
+    font-size: 5rem;
+    color: rgb(52, 11, 165);
+    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.cambio1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://i.postimg.cc/jqz1pPJ8/Whats-App-Image-2022-12-20-at-9-58-04-AM.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+
+.cambio2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://i.postimg.cc/GhgxVmz7/Whats-App-Image-2022-12-20-at-9-58-04-AM-2.jpg");
+    background-size: cover;
+    background-position: initial;
+    background-attachment: fixed;
+    display: table;
+}
+
+.cambio3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://i.postimg.cc/wT4n2HNH/Whats-App-Image-2022-12-20-at-9-58-02-AM.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+
+.cambio4 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://i.postimg.cc/QMmQgNBJ/Screenshot-2022-12-20-01-55-44-492-com-instagram-android.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+
+
+.paseo1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://i.postimg.cc/wMNcmSSX/Screenshot-2022-12-20-01-55-23-199-com-instagram-android.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+
+.paseo2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://i.postimg.cc/bvMt9m03/Screenshot-2022-12-20-01-57-19-036-com-facebook-katana.jpg");
+    background-size: cover;
+    background-position: initial;
+    background-attachment: fixed;
+    display: table;
+}
+
+.paseo3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://i.postimg.cc/65j5Zyfh/Screenshot-2022-12-20-01-56-55-061-com-facebook-katana.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+
+.paseo4 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://i.postimg.cc/xTkBs8S5/Screenshot-2022-12-20-01-56-46-975-com-facebook-katana.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+
+
+button::before,
+button::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background-color: #54e6e7;
+}
+
+span::before,
+span::after {
+    content: "";
+    width: 2px;
+    height: 0;
+    position: absolute;
+    transition: all 0.2s linear;
+    background-color: #54e6e7;
+}
+
+button:hover::before,
+button:hover::after {
+    width: 100%;
+    
+}
+
+button:hover span::before,
+button:hover span::after {
+    height: 100%;
+}
+
+button::after {
+    right: 0;
+    bottom: 0;
+    transition-duration: 0.4s;;
+}
+
+button span::after {
+    right: 0;
+    bottom: 0;
+    transition-duration: 0.4s;
+}
+
+button::before {
+    right: 0;
+    bottom: 100%;
+    transition-duration: 0.4s;
+    
+}
+
+button span::before {
+    right: 100%;
+    bottom: 0;
+    transition-duration: 0.4s;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+sans:wght@200&display=swap');
+
+:root {
+    --font-style: 'Nunito Sans', sans-serif;
+}
+
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buttonr {
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding: 10%;
+}
+
+button {
+    display: inline-block;
+    position: relative;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 20px 30px;
+    background: #1a2929;
+}
+
+span {
+    display: block;
+    padding: 25px 80px;
+}
